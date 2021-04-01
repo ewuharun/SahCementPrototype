@@ -34,8 +34,7 @@ public class MainActivity extends AppCompatActivity {
             "Reports",
             "Promotions",
             "Messages",
-            "Update",
-            "Logout",
+            "Logout"
 
     };
     public static int[] gridViewImages = {
@@ -48,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.uncover_outlet,
             R.drawable.use,
             R.drawable.verify,
-            R.drawable.goods
+            R.drawable.goods,
+
 
     };
 

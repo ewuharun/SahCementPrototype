@@ -75,6 +75,7 @@
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
@@ -88,24 +89,22 @@
                 android:columnWidth="100dp"
                 android:gravity="center"
                 android:listSelector="#00000000"
-                android:numColumns="2"
+                android:numColumns="3"
                 android:stretchMode="columnWidth" />
         </LinearLayout>
     </ScrollView>
 
 
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/bottomNavigation"
-            android:layout_alignParentBottom="true"
-            app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior"
-            android:layout_margin="5dp"
-            app:menu="@menu/bottom_navigation_menu">
 
-        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation_menu">
 
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 </RelativeLayout>
